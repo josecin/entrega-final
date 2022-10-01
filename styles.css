@@ -1,0 +1,93 @@
+body{
+    background-image: url("mundo_magico/fondopantalla.jpg");
+    background-size: cover;
+}
+.aside {
+    background-color: #00000044;
+    padding: 30px;
+}
+
+.aside a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abajo {
+    text-align: right;
+    display: block;
+    margin-right: 30px;
+}
+
+.aside img {
+    margin-right: 20px;
+}
+.segundo-texto {
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 1200px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 50px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.nombre, .mail, .mensaje{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.mensaje textarea {
+    resize: none;
+    width: 62%;
+}
+.boton{
+    margin: 10px auto;
+    display: block;
+}
+
+.titulo-integrantes {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.miembros {
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.miembros td {
+    border: 10px solid;
+    padding: 20px;
+}
+
+.miembros img {
+    height: 250px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+
+.botones .btn {
+    margin-top: 10px;
+}
+
